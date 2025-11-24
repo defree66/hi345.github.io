@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        .container{
+            width: 85%;
+            margin: auto;
+          text-align: center;
+
+        }
+        .container-full{
+        width: 100%;
+         margin: auto;
+        }
+        .header{
+            background-color: rgb(98, 104, 109);
+            text-align: center;
+            padding: 25px;
+        }
+        .detail{
+            border: 0px solid red;
+            text-align: center;
+           
+        }
+        .detail img{
+            width: 85%;
+        }
+
+        </style>
+</head>
+<body>
+      <div class="container-full"> 
+        <div class="header">
+            <h1 > My website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et, possimus corrupti molestiae temporibus nostrum soluta ab nulla totam aliquid dignissimos dolore? Laboriosam totam iste accusantium officia non autem obcaecati.</p>
+         </div>
+    <div class="row">
+  <div>
+      <div class="col-6 detail img"> <img src="h732.png" alt=""></div>
+      <div class="col-6 detail"><h3 style=" color: blue;">
+        laptop
+      </h3>
+      <h1>ROX STRIX G18 2025</h1>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores et quam hic natus, ullam expedita, excepturi fuga beatae cupiditate perspiciatis, repellendus facilis repudiandae. Porro distinctio doloribus beatae iure, quas natus?</P><hr>
+      <h3>Color</h3>
+      <input type="radio" name="color" style="width: 35px; height: 35px ;accent-color: green; filter: drop-shadow(2px 2px 3px green);">&nbsp;
+     <input type="radio" name="color" style= "width: 35px; height: 35px ;accent-color: rgb(128, 0, 0); filter: drop-shadow(2px 2px 3px rgb(128, 0, 0));">&nbsp;
+      <input type="radio"  name="color" style ="width: 35px; height: 35px ;accent-color: rgb(0, 26, 128); filter: drop-shadow(2px 2px 3px rgb(0, 26, 128));">&nbsp;
+      <br><br><hr><span>Price:00000$</span> <button style=" background-color: rgb(75, 168, 75);">Add to case</button> <button style=" background-color: rgb(75, 168, 75);">Buy Now</button>
+      
+    </div>
+
+  </div>
+    </div>
+    
+</body>
+</html>

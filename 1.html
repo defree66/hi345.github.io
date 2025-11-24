@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        .container{
+            width: 85%;
+            margin: auto;
+          text-align: center;
+
+        }
+        .container-full{
+        width: 100%;
+         margin: auto;
+        }
+        .header{
+            background-color: rgb(98, 104, 109);
+            text-align: center;
+            padding: 25px;
+        }
+        .menu{
+            border: 1px  solid red;
+        }
+        .listproduct{
+            border: 2px solid rgb(9, 49, 158);
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        .listproduct:hover{
+            border: 2px solid rgb(133, 9, 158);
+        }
+        .listproduct img:hover{
+            transform: translateY(-10px);
+        }
+        .listproduct img{
+            width: 180px; 
+            transition: 0.5s;
+        }
+        .listproduct a {
+            text-decoration: none;
+        }
+        .proprice{
+          font-weight: bold;
+          color: red;
+        }
+</style>
+
+</head>
+<body>
+    <div class="container-full"> 
+        <div class="header">
+            <h1 > My website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et, possimus corrupti molestiae temporibus nostrum soluta ab nulla totam aliquid dignissimos dolore? Laboriosam totam iste accusantium officia non autem obcaecati.</p>
+         </div>
+     </div>
+     <div class="row">
+        <div class="col-12 menu">
+             menu
+        </div>
+     </div>
+     <div class="container">
+       <div class="row">
+        <div class="col-12 pro">
+         <div class="listproduct">
+            <a href="2.html">
+                <span>ROX STRIC D17 2025</span>
+          <img src="h732.png" alt=""><br>
+          <span class="proprice">$1,700</span>
+            </a>
+            
+         </div>
+ <div class="listproduct">
+            <a href="2.html">
+                <span>ROX STRIC D17 2025</span>
+          <img src="h732.png" alt=""><br>
+          <span class="proprice">$1,700</span>
+            </a>
+            
+         </div>
+          <div class="listproduct">
+            <a href="2.html">
+                <span>ROX STRIC D17 2025</span>
+          <img src="h732.png" alt=""><br>
+          <span class="proprice">$1,700</span>
+            </a>
+            
+         </div>
+          <div class="listproduct">
+            <a href="2.html">
+                <span>ROX STRIC D17 2025</span>
+          <img src="h732.png" alt=""><br>
+          <span class="proprice">$1,700</span>
+            </a>
+            
+         </div>
+<div class="listproduct">
+            <a href="2.html">
+                <span>ROX STRIC D17 2025</span>
+          <img src="h732.png" alt=""><br>
+          <span class="proprice">$1,700</span>
+            </a>
+            
+         </div>
+         <div class="listproduct">
+            <a href="2.html">
+                <span>ROX STRIC D17 2025</span>
+          <img src="h732.png" alt=""><br>
+          <span class="proprice">$1,700</span>
+            </a>
+            
+         </div>
+       
+
+
+        </div>
+
+       </div>
+       <div class="container-full"> 
+        <div class="header">
+            <h1 > footer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et, possimus corrupti molestiae temporibus nostrum soluta ab nulla totam aliquid dignissimos dolore? Laboriosam totam iste accusantium officia non autem obcaecati.</p>
+         </div>
+     </div>
+     </div>
+</body>
+</html>
